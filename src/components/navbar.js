@@ -90,7 +90,7 @@ const NavBar = () => {
                   <a
                     target="_blank"
                     rel="noopener noreferrer"
-                    href="https://github.com/Suritam-Nandy/sepm-weather-app"
+                    href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
                     className="text-gray-400 hover:text-gray-500 transition-colors duration-200"
                   >
                     <span className="sr-only">React Weather on GitHub</span>

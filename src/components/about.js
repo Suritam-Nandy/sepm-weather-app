@@ -58,11 +58,11 @@ const About = () => {
             and is hosted on{' '}
             <a
               className="underline text-indigo-500 hover:text-indigo-700"
-              href=""
+              href="https://sepm-weather.netlify.app/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Vercel
+              Netlify
             </a>
             . If you like the project, please fork it on{' '}
             <a
