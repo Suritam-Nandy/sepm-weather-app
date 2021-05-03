@@ -9,10 +9,10 @@ const About = () => {
       >
         <div className="p-4 text-gray-500">
           <h3 className="text-gray-600 text-xl font-medium font-sans">
-            About ReactWeather
+            About Elemnts
           </h3>
           <p className="pt-4">
-            ReactWeather is a beautiful weather app built on top of the{' '}
+            Elements is a beautiful weather app built on top of the{' '}
             <a
               className="underline text-indigo-500 hover:text-indigo-700"
               href="https://openweathermap.com/api"
@@ -24,16 +24,8 @@ const About = () => {
             .
           </p>
           <p className="pt-4">
-            It is a labor of ❤️ open-source project by me,{' '}
-            <a
-              className="underline text-indigo-500 hover:text-indigo-700"
-              href="https://github.com/denniskigen"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Dennis Kigen
-            </a>
-            , a software developer, writer and maker of cool stuff.
+            It is made with ❤️ by a group of 2nd year students Suritam, Manas,
+            Aniket.
           </p>
           <p className="pt-4">
             It's runs on{' '}
@@ -66,7 +58,7 @@ const About = () => {
             and is hosted on{' '}
             <a
               className="underline text-indigo-500 hover:text-indigo-700"
-              href="https://react-weather.denniskigen.com"
+              href=""
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -77,7 +69,7 @@ const About = () => {
               className="underline text-indigo-500 hover:text-indigo-700"
               target="_blank"
               rel="noopener noreferrer"
-              href="https://github.com/denniskigen/react-weather"
+              href="https://github.com/Suritam-Nandy/sepm-weather-app"
             >
               GitHub
             </a>{' '}
@@ -88,19 +80,6 @@ const About = () => {
           </p>
         </div>
       </section>
-      <div className="flex justify-center">
-        <a
-          href="https://www.buymeacoffee.com/denniskigen"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img
-            src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png"
-            alt="Buy Me A Coffee"
-            className="h-16 w-56 shadow rounded-lg"
-          />
-        </a>
-      </div>
     </>
   );
 };

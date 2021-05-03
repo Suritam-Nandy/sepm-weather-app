@@ -75,7 +75,7 @@ const NavBar = () => {
               />
             </svg>
             <Link to="/">
-              <h3 className="ml-1 text-xl font-semibold">reactWeather</h3>
+              <h3 className="ml-1 text-xl font-semibold">Elements</h3>
             </Link>
             <div className="flex-1 flex items-center justify-end sm:items-stretch sm:justify-end">
               <div className="hidden sm:block sm:ml-6">
@@ -90,7 +90,7 @@ const NavBar = () => {
                   <a
                     target="_blank"
                     rel="noopener noreferrer"
-                    href="https://github.com/denniskigen/react-weather"
+                    href="https://github.com/Suritam-Nandy/sepm-weather-app"
                     className="text-gray-400 hover:text-gray-500 transition-colors duration-200"
                   >
                     <span className="sr-only">React Weather on GitHub</span>
@@ -135,7 +135,7 @@ const NavBar = () => {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://github.com/denniskigen/react-weather"
+              href="https://github.com/Suritam-Nandy/sepm-weather-app"
               className="text-indigo-700 hover:bg-green-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
             >
               GitHub

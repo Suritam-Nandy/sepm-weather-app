@@ -14,7 +14,7 @@ const apiKey = '0a8d5cdfac404f7db284945943fad0d5';
 
 const App = () => {
   const searchTimeout = 1000;
-  const [location, setLocation] = React.useState('Eldoret');
+  const [location, setLocation] = React.useState('Chennai');
   const [error, setError] = React.useState(null);
   const [forecast, setForecast] = React.useState([]);
   const [weather, setWeather] = React.useState({});
