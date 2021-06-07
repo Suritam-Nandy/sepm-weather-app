@@ -11,7 +11,7 @@ import Search from './search';
 
 const apiUrl = 'https://api.openweathermap.org/data/2.5';
 const apiKey = '0a8d5cdfac404f7db284945943fad0d5';
-
+console.log('apiUrl = ', apiUrl);
 const App = () => {
   const searchTimeout = 1000;
   const [location, setLocation] = React.useState('Chennai');
@@ -118,12 +118,20 @@ const App = () => {
 };
 
 async function fetchForecast(location, units) {
+  console.log(
+    'data = ',
+    `${apiUrl}/forecast/?q=${location}&units=${units}&APPID=${apiKey}`,
+  );
   const response = await window.fetch(
     `${apiUrl}/forecast/?q=${location}&units=${units}&APPID=${apiKey}`,
   );
   const forecast = await response.json();
   if (response.ok) {
     if (Object.entries(forecast).length) {
+      console.log(
+        'data = ',
+        `${apiUrl}/forecast/?q=${location}&units=${units}&APPID=${apiKey}`,
+      );
       return forecast.list
         .filter(f => f.dt_txt.match(/09:00:00/))
         .map(mapDataToWeatherInterface);

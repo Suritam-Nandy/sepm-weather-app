@@ -28,25 +28,7 @@ const About = () => {
             Aniket.
           </p>
           <p className="pt-4">
-            It's runs on{' '}
-            <a
-              className="underline text-indigo-500 hover:text-indigo-700"
-              href="https://reactjs.org/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              React
-            </a>{' '}
-            and{' '}
-            <a
-              className="underline text-indigo-500 hover:text-indigo-700"
-              href="https://tailwindcss.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              TailwindCSS
-            </a>
-            . It uses{' '}
+            It uses{' '}
             <a
               className="underline text-indigo-500 hover:text-indigo-700"
               href="https://erikflowers.github.io/weather-icons/"
